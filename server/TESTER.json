@@ -1,0 +1,400 @@
+{
+  "recipes": [
+    {
+      "name": "Nasi Goreng Spesial",
+      "imageUrl": "https://example.com/images/nasi-goreng.jpg",
+      "ingredients": [
+        {
+          "name": "Nasi Putih",
+          "quantity": 400,
+          "unit": "gram"
+        },
+        {
+          "name": "Telur",
+          "quantity": 2,
+          "unit": "butir"
+        },
+        {
+          "name": "Bawang Putih",
+          "quantity": 3,
+          "unit": "siung"
+        },
+        {
+          "name": "Bawang Merah",
+          "quantity": 4,
+          "unit": "siung"
+        },
+        {
+          "name": "Kecap Manis",
+          "quantity": 2,
+          "unit": "sendok makan"
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "description": "Haluskan bawang merah dan bawang putih",
+          "ingredients": [
+            {
+              "name": "Bawang Putih",
+              "quantity": 3,
+              "unit": "siung"
+            },
+            {
+              "name": "Bawang Merah",
+              "quantity": 4,
+              "unit": "siung"
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "description": "Tumis bumbu halus hingga harum, masukkan telur, buat orak-arik",
+          "ingredients": [
+            {
+              "name": "Telur",
+              "quantity": 2,
+              "unit": "butir"
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "description": "Masukkan nasi putih dan kecap manis, aduk rata hingga matang",
+          "ingredients": [
+            {
+              "name": "Nasi Putih",
+              "quantity": 400,
+              "unit": "gram"
+            },
+            {
+              "name": "Kecap Manis",
+              "quantity": 2,
+              "unit": "sendok makan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rendang Daging",
+      "imageUrl": "https://example.com/images/rendang.jpg",
+      "ingredients": [
+        {
+          "name": "Daging Sapi",
+          "quantity": 500,
+          "unit": "gram"
+        },
+        {
+          "name": "Santan Kental",
+          "quantity": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "Cabai Merah",
+          "quantity": 10,
+          "unit": "buah"
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "description": "Potong daging sapi menjadi ukuran sedang",
+          "ingredients": [
+            {
+              "name": "Daging Sapi",
+              "quantity": 500,
+              "unit": "gram"
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "description": "Haluskan cabai merah untuk bumbu",
+          "ingredients": [
+            {
+              "name": "Cabai Merah",
+              "quantity": 10,
+              "unit": "buah"
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "description": "Masak daging dengan santan dan bumbu hingga mengering",
+          "ingredients": [
+            {
+              "name": "Santan Kental",
+              "quantity": 500,
+              "unit": "ml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Soto Ayam",
+      "imageUrl": "https://example.com/images/soto-ayam.jpg",
+      "ingredients": [
+        {
+          "name": "Ayam",
+          "quantity": 500,
+          "unit": "gram"
+        },
+        {
+          "name": "Bihun",
+          "quantity": 200,
+          "unit": "gram"
+        },
+        {
+          "name": "Kol",
+          "quantity": 200,
+          "unit": "gram"
+        },
+        {
+          "name": "Kunyit",
+          "quantity": 3,
+          "unit": "ruas"
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "description": "Rebus ayam hingga empuk, ambil kaldunya",
+          "ingredients": [
+            {
+              "name": "Ayam",
+              "quantity": 500,
+              "unit": "gram"
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "description": "Haluskan kunyit dan tumis dengan bumbu lainnya",
+          "ingredients": [
+            {
+              "name": "Kunyit",
+              "quantity": 3,
+              "unit": "ruas"
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "description": "Susun bihun dan kol dalam mangkok, siram dengan kuah panas",
+          "ingredients": [
+            {
+              "name": "Bihun",
+              "quantity": 200,
+              "unit": "gram"
+            },
+            {
+              "name": "Kol",
+              "quantity": 200,
+              "unit": "gram"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Gado-gado",
+      "imageUrl": "https://example.com/images/gado-gado.jpg",
+      "ingredients": [
+        {
+          "name": "Kacang Tanah",
+          "quantity": 250,
+          "unit": "gram"
+        },
+        {
+          "name": "Tahu",
+          "quantity": 200,
+          "unit": "gram"
+        },
+        {
+          "name": "Tempe",
+          "quantity": 200,
+          "unit": "gram"
+        },
+        {
+          "name": "Tauge",
+          "quantity": 100,
+          "unit": "gram"
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "description": "Goreng kacang tanah untuk bumbu",
+          "ingredients": [
+            {
+              "name": "Kacang Tanah",
+              "quantity": 250,
+              "unit": "gram"
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "description": "Goreng tahu dan tempe hingga kecoklatan",
+          "ingredients": [
+            {
+              "name": "Tahu",
+              "quantity": 200,
+              "unit": "gram"
+            },
+            {
+              "name": "Tempe",
+              "quantity": 200,
+              "unit": "gram"
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "description": "Rebus tauge sebentar, tiriskan",
+          "ingredients": [
+            {
+              "name": "Tauge",
+              "quantity": 100,
+              "unit": "gram"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sate Ayam",
+      "imageUrl": "https://example.com/images/sate-ayam.jpg",
+      "ingredients": [
+        {
+          "name": "Daging Ayam",
+          "quantity": 500,
+          "unit": "gram"
+        },
+        {
+          "name": "Kacang Tanah",
+          "quantity": 200,
+          "unit": "gram"
+        },
+        {
+          "name": "Kecap Manis",
+          "quantity": 4,
+          "unit": "sendok makan"
+        },
+        {
+          "name": "Tusuk Sate",
+          "quantity": 20,
+          "unit": "buah"
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "description": "Potong daging ayam dadu dan tusuk dengan tusuk sate",
+          "ingredients": [
+            {
+              "name": "Daging Ayam",
+              "quantity": 500,
+              "unit": "gram"
+            },
+            {
+              "name": "Tusuk Sate",
+              "quantity": 20,
+              "unit": "buah"
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "description": "Haluskan kacang tanah goreng untuk bumbu",
+          "ingredients": [
+            {
+              "name": "Kacang Tanah",
+              "quantity": 200,
+              "unit": "gram"
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "description": "Bakar sate sambil diolesi kecap manis",
+          "ingredients": [
+            {
+              "name": "Kecap Manis",
+              "quantity": 4,
+              "unit": "sendok makan"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sayur Asem",
+      "imageUrl": "https://example.com/images/sayur-asem.jpg",
+      "ingredients": [
+        {
+          "name": "Kacang Panjang",
+          "quantity": 200,
+          "unit": "gram"
+        },
+        {
+          "name": "Jagung Muda",
+          "quantity": 2,
+          "unit": "buah"
+        },
+        {
+          "name": "Asam Jawa",
+          "quantity": 2,
+          "unit": "sendok makan"
+        },
+        {
+          "name": "Daun Melinjo",
+          "quantity": 100,
+          "unit": "gram"
+        }
+      ],
+      "steps": [
+        {
+          "stepNumber": 1,
+          "description": "Potong sayuran sesuai ukuran",
+          "ingredients": [
+            {
+              "name": "Kacang Panjang",
+              "quantity": 200,
+              "unit": "gram"
+            },
+            {
+              "name": "Jagung Muda",
+              "quantity": 2,
+              "unit": "buah"
+            }
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "description": "Rebus air dan masukkan asam jawa",
+          "ingredients": [
+            {
+              "name": "Asam Jawa",
+              "quantity": 2,
+              "unit": "sendok makan"
+            }
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "description": "Masukkan sayuran dan daun melinjo, masak hingga matang",
+          "ingredients": [
+            {
+              "name": "Daun Melinjo",
+              "quantity": 100,
+              "unit": "gram"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
