@@ -5,14 +5,10 @@ import { Type } from 'class-transformer';
 // DTO untuk bahan dalam resep
 class IngredientDto {
     @IsString()
-    name: string; // Nama bahan (misalnya "ayam"), bukan ingredientId
-
-    @IsNumber()
-    @Min(0)
-    quantity: number; // Jumlah bahan (misalnya 300)
+    name: string;
 
     @IsString()
-    unit: string; // Satuan (misalnya "gram")
+    quantity: string;
 }
 
 // DTO untuk langkah dalam resep
@@ -22,11 +18,6 @@ class StepDto {
 
     @IsString()
     description: string; // Deskripsi langkah
-
-    @IsArray()
-    @ValidateNested({ each: true })
-    @Type(() => IngredientDto)
-    ingredients: IngredientDto[];
 }
 
 // DTO utama untuk membuat resep
@@ -40,9 +31,7 @@ export class CreateRecipeDto {
 
     @IsArray()
     @ArrayMinSize(1) // Minimal 1 bahan
-    @ValidateNested({ each: true })
-    @Type(() => IngredientDto)
-    ingredients: IngredientDto[]; // Daftar bahan dengan jumlah dan satuan
+    ingredients: IngredientDto[]
 
     @IsArray()
     @ArrayMinSize(1) // Minimal 1 langkah

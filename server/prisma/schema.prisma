@@ -48,14 +48,10 @@ model RecipeIngredient {
   id        String   @id @default(uuid())
   recipeId  String
   ingredientId String
-  quantity  Float    // Jumlah bahan (misalnya 300 untuk 300 gram)
-  unit      String   // Satuan (misalnya "gram", "ml", "pcs")
-
+  quantity  String @default("") //contoh isi: 100 gram bawang
   // Relasi
   recipe    Recipe   @relation(fields: [recipeId], references: [id], onDelete: Cascade)
   ingredient Ingredient @relation(fields: [ingredientId], references: [id], onDelete: Cascade)
-  steps     RecipeStep[] // Langkah-langkah yang menggunakan bahan ini
-
   @@unique([recipeId, ingredientId]) // Pastikan tidak ada duplikat bahan dalam satu resep
 }
 
@@ -68,7 +64,6 @@ model RecipeStep {
 
   // Relasi
   recipe        Recipe    @relation(fields: [recipeId], references: [id], onDelete: Cascade)
-  ingredients   RecipeIngredient[] // Bahan yang digunakan di langkah ini
 }
 
 // Model Ingredient (daftar master bahan)
